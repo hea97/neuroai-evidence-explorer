@@ -261,11 +261,12 @@ neuroai-evidence-explorer/
 ├─ AGENTS.md
 ├─ README.md
 └─ pyproject.toml
+```
 Keep modules focused.
 
 Avoid creating additional modules unless there is a clear V0 responsibility that cannot reasonably live in the existing structure.
 
-8. Data Contract Principles
+# 8. Data Contract Principles
 
 External data is untrusted and may be incomplete.
 
@@ -311,7 +312,7 @@ not_reported
 
 must be preferred over inference.
 
-9. Scientific Integrity Rule
+# 9. Scientific Integrity Rule
 
 Never fabricate scientific information.
 
@@ -342,7 +343,7 @@ A fluent answer is not automatically a trustworthy answer.
 
 Traceability is more important than sounding complete.
 
-10. Semantic Scholar Rules
+# 10. Semantic Scholar Rules
 
 V0 uses Semantic Scholar Academic Graph relevance-ranked paper search.
 
@@ -375,7 +376,7 @@ If API integration blocks progress for approximately 45 minutes, use a small moc
 
 Return to the live API after the downstream pipeline works.
 
-11. Testing Philosophy
+# 11. Testing Philosophy
 
 Tests protect the V0 contract.
 
@@ -406,7 +407,7 @@ Mock network behavior in tests when appropriate.
 
 Do not make the test suite depend on live Semantic Scholar availability.
 
-12. Evaluation Rule
+# 12. Evaluation Rule
 
 Do not describe a system change as an improvement without measurement.
 
@@ -443,7 +444,7 @@ the limitation is documented
 
 Never manipulate evaluation criteria to make the project look better.
 
-13. Decision Log Rule
+# 13. Decision Log Rule
 
 Use:
 
@@ -498,7 +499,7 @@ What did we decide?
 ### Learned
 
 What engineering concept or lesson did this reveal?
-14. README Rule
+# 14. README Rule
 
 README must describe the project that actually exists.
 
@@ -528,7 +529,7 @@ Search
 
 Do not prioritize README polish over unfinished evaluation or broken functionality.
 
-15. Stop Conditions
+# 15. Stop Conditions
 
 Stop feature development when any of the following applies:
 
@@ -547,7 +548,7 @@ do not start UI work
 do not start RAG work
 do not add infrastructure before evaluation
 do not add new features while README and evaluation remain incomplete near the end of V0
-16. Definition of Done
+# 16. Definition of Done
 
 V0 is complete only when the following behavior has been demonstrated.
 
@@ -581,7 +582,7 @@ Core search, schema, and report behavior is tested.
 Portfolio
 README communicates the problem, architecture, execution, results, limitations, and design decisions clearly.
 
-17. Codex Communication Style
+# 17. Codex Communication Style
 
 When starting a task, briefly state:
 
@@ -615,7 +616,7 @@ Do not claim success solely because code was written.
 
 Success requires an executable or testable result.
 
-18. Core Working Principles
+# 18. Core Working Principles
 
 Always follow these three rules.
 
